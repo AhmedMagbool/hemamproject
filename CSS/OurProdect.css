@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #c4e4fd;
+    font-family: 'Rubik', sans-serif;
+
+}
+nav{
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+nav a{
+  text-decoration: none;
+  color: black;
+  margin-right: 50px;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+
+nav a:hover{
+    color:#007FFF;
+}
+
+.logo1{
+    width: 60px ;
+    height: 60px;
+}
+#button1 {
+  padding: 13px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #7f7294;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  }
+  
+  #button1:hover {
+  background-color: #7f7294;
+  box-shadow: 0 0 20px #7f7294;
+  transform: scale(1.1);
+  }
+  
+  #button1:active {
+  background-color: #7f7294 ;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+  }
+  
+  
+  #button2 {
+  padding: 13px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #7f7294;
+  color: #ffffff;
+  font-weight: Bold;
+  font-size: 18px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  }
+  
+  #button2:hover {
+  background-color: #7f7294;
+  box-shadow: 0 0 20px #7f7294;
+  transform: scale(1.1);
+  }
+  
+  #button2:active {
+  background-color: #7f7294;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+  }
+
+
+   /*  */
+   main{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+   .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: calc(300px);
+    height: calc(300px);
+    padding: 20px 1px;
+    margin-top: 25vh;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+    border-radius: 10px;
+    background-color: #6B6ECC;
+    background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content .price {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+  }
+  
+  .content .description {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .content .title {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  
+  .card button {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: none;
+    outline: none;
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(33 150 243);
+    border-radius: 0.5rem;
+    width: 90%;
+    text-shadow: 0px 4px 18px #2c3442;
+    font-size: 20px;
+  } 
+  .card button a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .card button a:hover{
+    
+  }
+  
+  footer{
+    width: 70%;
+    padding: 100px 15%;
+    background-color: #343334;
+    color: white;
+    display: flex;
+  }
+  
+  footer div{
+    text-align: center;
+  }
+  
+  footer div h3{
+    font-weight: 1000px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  
+  .second{
+    flex-grow: 2;
+  }
+  
+  .first a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+  }
+  
+  form button{
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 30px ;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .card10 {
+    display: flex;
+    height: 70px;
+    width: 270px;
+  }
+  
+  .card10 svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .third img{
+    width: 60px ;
+    height: 60px;
+  }
+  
+  .card10 .social-link1,.card10 .social-link2,.card10 .social-link3,.card10 .social-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+  }
+  
+  .card10 svg {
+    transform: scale(1);
+  }
+  
+  .card10 .social-link1:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .card10 .social-link2:hover {
+    background-color: #00ccff;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .card10 .social-link3:hover {
+    background-color: #5865f2;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .card10 .social-link4:hover {
+    background-color: #12a50b;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  @keyframes bounce_613 {
+    40% {
+      transform: scale(1.4);
+    }
+  
+    60% {
+      transform: scale(0.8);
+    }
+  
+    80% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+ 
