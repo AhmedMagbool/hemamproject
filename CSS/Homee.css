@@ -11,9 +11,9 @@ body{
 }
 nav{
     background-color: #ffffff;
-    padding: 10px;
+    padding: 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
@@ -35,6 +35,7 @@ nav a:hover{
 .logo1{
     width: 60px ;
     height: 60px;
+    margin-right: 0%;
 }
 
 #button1 {
@@ -107,7 +108,7 @@ transform: scale(0.98);
 }
 
 .about-text{
-    width: 10000px;
+    margin-right:7% ;
 }
 
 .main{
